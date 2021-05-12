@@ -19,7 +19,7 @@ header {
     padding: 20px;
     z-index: 100;
     position: fixed;
-    width: 100%;
+    width: calc(100% - 40px);
     top: 0;
 }   
 
@@ -32,11 +32,11 @@ header {
 }
 
 .header {
-    width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    width: 100% !important;
     align-items: center;
+    justify-content: space-between
 }
 
 .nav-desktop {
@@ -224,8 +224,8 @@ main {
     background-size: cover;
     text-align: center;
     color: #fff;
-    width: calc(100% - 30px);
-    padding: 70px 15px;
+    width: calc(100% - 140px);
+    padding: 70px;
 }
 
 .parallax h2 {
@@ -575,9 +575,6 @@ footer p {
 }
 
 @media (max-width:767px) {
-    header {
-        width:calc(100% - 40px) !important;
-    }
     .circles {
         flex-direction: column;
         align-items: center;
