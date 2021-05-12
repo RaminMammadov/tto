@@ -470,9 +470,6 @@ footer p {
 }
 
 @media (max-width:1240px) {
-    .header {
-        width: calc(100% - 60px) !important;
-    }
     .box {
         width: 100%;
         margin-top: 20px;
