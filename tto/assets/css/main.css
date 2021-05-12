@@ -117,7 +117,7 @@ header {
 .news {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 main {
@@ -224,8 +224,8 @@ main {
     background-size: cover;
     text-align: center;
     color: #fff;
-    width: calc(100% - 140px);
-    padding: 70px;
+    width: calc(100% - 30px);
+    padding: 70px 15px;
 }
 
 .parallax h2 {
