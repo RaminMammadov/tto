@@ -117,7 +117,7 @@ header {
 .news {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 main {
@@ -303,7 +303,7 @@ main {
 .magazine {
     background-color:#eef5f3;
     margin: 0;
-    padding: 50px;
+    padding: 20px;
 }
 
 .magazine p {
@@ -324,10 +324,14 @@ main {
     width: 25%;
     padding: 10px;
     border-radius: 4px;
-    color: #fff;
+    color: #fff !important;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     letter-spacing: 2px;
+}
+
+.contact-box {
+    color: #fff !important;
 }
 
 .contact p {
@@ -471,7 +475,7 @@ footer p {
     }
     .box {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .look a {
